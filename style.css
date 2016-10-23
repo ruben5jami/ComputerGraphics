@@ -1,0 +1,109 @@
+#canvas{
+
+}
+
+.jscolor{
+    width: 60px;
+}
+
+.thick{
+    width: 40px;
+}
+
+input, select, textarea{
+    color: black;
+}
+
+textarea:focus, input:focus {
+    color: black;
+}
+
+#menu{
+    color: white;
+    height: 75px;
+    background-color: #3CBC8D;
+}
+#tools{
+    float: right;
+    width: calc(100% - 200px);
+    padding-top: 20px;
+}
+
+#logo{
+    float: left;
+    height: 75px;
+    width: 100px;
+    background-image: url("logo-final-web.png");
+}
+
+#clearbtn{
+    float: right;
+    padding-right: 100px;
+}
+
+#sub{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+.btn-group .btn {
+    margin-right:2px;
+}
+.btn{
+    background-color:transparent;
+    color:#000;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 13px 13px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+.radios{
+    padding-left: 100px;
+}
+
+.radios #my_line{
+    border: none;
+    background-image: url("glyphicons-98-vector-path-line.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.radios #my_circle{
+    border: none;
+    background-image: url("glyphicons-96-vector-path-circle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.radios #my_curve{
+    border: none;
+    background-image: url("glyphicons-99-vector-path-curve.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.radios #my_polygon{
+    border: none;
+    background-image: url("glyphicons-97-vector-path-polygon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type=text]{
+    border-radius:8px;
+}
+
+
